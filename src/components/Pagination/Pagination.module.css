@@ -1,0 +1,22 @@
+.smallBtn {
+	@apply relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50;
+}
+.main {
+	@apply hidden sm:flex-1 sm:flex sm:items-center sm:justify-between;
+}
+.paginationContainer {
+	@apply relative z-0 inline-flex rounded-md shadow-sm -space-x-px;
+}
+.paginationItem {
+	@apply bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium;
+}
+.paginationItemActive {
+	@apply z-10 bg-indigo-50 border-indigo-500 text-indigo-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium;
+}
+.indicator {
+	@apply relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50;
+	top: 5px;
+}
+.spanning {
+	@apply relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700;
+}
